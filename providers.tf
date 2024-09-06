@@ -1,17 +1,3 @@
-terraform {
-  required_version = ">= 0.13.1"
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = ">= 5.65.0"
-    }
-    local = {
-      source  = "hashicorp/local"
-      version = ">= 2.5.1"
-    }
-  }
-}
-
-provider "aws" {
-  region = "us-east-1"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:7402df9d896139a67ea8982ffef6211d2dac87f89ca0e11ceac3092978aa349c
+size 293
