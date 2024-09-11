@@ -16,31 +16,21 @@ O projeto é organizado da seguinte forma:
 
     Clone o Repositório
 
-    bash
-
 git clone https://github.com/Gardene10/vpc-terraform.git
 
 Navegue para o Diretório do Projeto
-
-bash
 
 cd vpc-terraform
 
 Inicialize o Terraform
 
-bash
-
 terraform init
 
 Revise o Plano de Execução
 
-bash
-
 terraform plan
 
 Aplique a Configuração
-
-bash
 
 terraform apply
 
@@ -56,8 +46,6 @@ Isso cria:
     Um Deployment de exemplo no cluster
 
 (Opcional) Destrua a Infraestrutura
-
-bash
 
     terraform destroy
 
